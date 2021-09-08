@@ -9,6 +9,14 @@ logo.image = Image("logo.png");
 logo.originalImage = Image("logo.png");
 logo.sprite = Sprite();
 
+// Wallpaper
+wallpaper_image = Image("wallpaper.png");
+screen_width = Window.GetWidth();
+screen_height = Window.GetHeight();
+resized_wallpaper_image = wallpaper_image.Scale(screen_width,screen_height);
+wallpaper_sprite = Sprite(resized_wallpaper_image);
+wallpaper_sprite.SetZ(-100);
+
 // Progress bar
 loading.image = Image("progress.png");
 loading.originalImage = Image("progress.png");
