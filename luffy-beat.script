@@ -34,7 +34,7 @@ message = null;
 // Password prompt
 bullets = null;
 prompt = null;
-bullet.image = Image.Text("*", 1, 1, 1);
+bullet.image = Image.Text("*", 0, 0, 0);
 
 // Flow
 state.status = "play";
